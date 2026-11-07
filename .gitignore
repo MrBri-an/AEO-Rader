@@ -1,0 +1,9 @@
+# secrets & local state — never commit
+data/
+.env
+
+# cruft
+node_modules/
+*.log
+.DS_Store
+Thumbs.db

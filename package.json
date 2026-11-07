@@ -1,0 +1,23 @@
+{
+  "name": "aeo-radar",
+  "version": "1.0.0",
+  "description": "AEO Radar — AI Search Visibility Tracker. Measure how brands appear inside AI-generated answers (mention rate, position, sentiment, share of voice, cited sources). Ships with a zero-dependency demo engine plus OpenAI/Anthropic adapters and an MCP server.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "mcp": "node mcp-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "aeo",
+    "geo",
+    "ai-search-visibility",
+    "llm-optimization",
+    "mcp",
+    "brand-monitoring"
+  ]
+}
